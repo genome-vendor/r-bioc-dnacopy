@@ -1,0 +1,14 @@
+Source: r-bioc-dnacopy
+Section: gnu-r
+Priority: optional
+Maintainer: The Genome Institute <gmt@genome.wustl.edu>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0)
+Homepage: http://www.bioconductor.org/packages//2.7/bioc/html/DNAcopy.html
+
+Package: r-bioc-dnacopy
+Architecture: amd64
+Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+Description: Segments DNA copy number data using circular binary segmentation to detect regions with abnormal copy number
+License: GPL-2
+Depends: r-base-core
+
